@@ -1,0 +1,23 @@
+{
+  "name": "duplicate-code",
+  "version": "1.0.0",
+  "description": "Code exemple pour la conférence Ctrl + C, Ctrl + V",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ts-node src/decorator.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patou/duplicate-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patou/duplicate-code/issues"
+  },
+  "homepage": "https://github.com/patou/duplicate-code#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
