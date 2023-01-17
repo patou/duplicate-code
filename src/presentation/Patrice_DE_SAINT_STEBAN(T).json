@@ -1,0 +1,11 @@
+{
+    "name": "Patrice DE SAINT STEBAN(T)",
+    "location": "Nantes",
+    "formation": "EPITA Paris",
+    "job": {
+        "company": "Zenika",
+        "position": "Developeur fullstack, formateur",
+        "domain": "All"
+    },
+    "skills": ["React", "Angular", "Java", "Node", "Google Cloud"]
+}
