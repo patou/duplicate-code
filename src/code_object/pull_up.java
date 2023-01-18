@@ -6,4 +6,3 @@ class Manager extends Employee {
     this.grade = grade;
   }
   // ...
-}
