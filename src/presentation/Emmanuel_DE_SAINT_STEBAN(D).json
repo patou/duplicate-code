@@ -1,10 +1,11 @@
 {
     "name": "Emmanuel DE SAINT STEBAN(D)",
     "location": "Grenoble",
+    "birthday": "3 mars",
     "formation": "EFREI Paris",
     "job": {
         "company": "Evidian - Atos",
-        "position": "Developeur Front-End",
+        "position": ["Developeur Front-End", "Chef de projet"],
         "domain": "Cyber Sécurité"
     },
     "skills": ["Angular", "Javascript", "Java", "PHP"]
