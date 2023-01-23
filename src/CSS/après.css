@@ -1,0 +1,23 @@
+:root {
+  --heading-color: #ff0000;
+  --heading-size-small: 12px;
+  --heading-size-medium: 14px;
+  --heading-size-large: 16px;
+}
+
+h1, h2, h3 { 
+	color: var(--heading-color);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: var(--heading-size-large);
+}
+
+h2 {
+  font-size: var(--heading-size-medium);
+}
+
+h3 {
+  font-size: var(--heading-size-small);
+}

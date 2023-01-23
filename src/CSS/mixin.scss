@@ -1,0 +1,27 @@
+@mixin heading-styles($color, $small-size, $medium-size, $large-size) {
+  font-size: $small-size;
+  color: $color;
+
+  &.small {
+    font-size: $small-size;
+  }
+
+  &.medium {
+    font-size: $medium-size;
+  }
+
+  &.large {
+    font-size: $large-size;
+  }
+}
+//  Ce mixin peut être appelé dans le code pour éviter la duplication des propriétés de style.
+
+h1 {
+  @include heading-styles(#ff0000, 12px, 14px, 16px);
+}
+
+h2 {
+  @include heading-styles(#ff0000, 10px, 9px, 8px);
+}
+
+// utiliser h1.small ou h2.large
