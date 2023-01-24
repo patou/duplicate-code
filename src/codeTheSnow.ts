@@ -1,10 +1,12 @@
 function codeTheSnow() {
+  const width = 640;
+  const height = 480;
   const snowflakes = [];
   const numSnowflakes = 300;
   const snowSpeed = 3;
 
   function setup() {
-    createCanvas(640, 480);
+    createCanvas(width, height);
     frameRate(30);
     for (let i = 0; i < numSnowflakes; i++) {
       snowflakes.push([random(0, width), random(-500, -50)]);
